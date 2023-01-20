@@ -1,6 +1,6 @@
 body {
     background-color: rgb(172, 181, 206);
-    color: #31108f;
+    color: #8f105a;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@ h1 {
 }
 
 div#post {
-    background-color: aquamarine;
+    background-color: rgb(184, 215, 255);
     max-width: 50vw;
     max-height: auto;
     margin: 0 auto;

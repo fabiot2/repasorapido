@@ -2,6 +2,7 @@ body {
     background-color: rgb(172, 181, 206);
     color: #3c108f;
     text-align: center;
+    height: 100vh;
 }
 
 h1 {

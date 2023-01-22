@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="title" content="Será el titulo en las SERP.">
+    <meta name="description" content="Será el contenido descriptivo para las SERP.">
+    <meta name="keywords" content="esto, ya, no, se, usa">
+    <meta name="author" content="Fabiotriana.com">
+    <meta name="copyright" content="Fabiotriana.com">
     <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./footer.css">
 </head>
@@ -42,14 +49,28 @@
             </section>
             <h4>Este si es un cuarto parrafo</h4>
             <p>Aquí va un cuarto parrafo capaz de ...</p>
-            <h5>Este si es un Quinto parrafo</h5>
+            <h5>Este si es Quinto parrafo</h5>
             <p>Aquí va un Quinto parrafo capaz de ...</p>
             <p>Este parrafo no deberia existir ...</p>
+            <form action="">
+                <label for="calendario__salida">
+                    <span>Salida</span>
+                    <input type="datetime-local" id="calendario__salida" name="calendario__salida">
+                </label>
+                <input type="submit">
+            </form>
         </div>
     </div>
     <footer>
         <div class="footer__container">
-            <a href="https://fabiotriana.com" target="_blank" rel="nofollow">Este será el Footer</a>
+            <a href="https://fabiotriana.com" target="_blank" rel="nofollow">Página Web Diseñada por Fabiotriana.com</a>
+            <form action="">
+                <label for="email">
+                    <Span>Email</Span><br>
+                    <input type="email" id="email" name="email">
+                </label>
+                <input type="submit">
+            </form>
         </div>
     </footer>
 </Body>

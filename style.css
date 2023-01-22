@@ -1,13 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
+    font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif ;
 }
 
 body {
+    min-width: 300px;
     background-color: rgb(172, 181, 206);
     color: #3c108f;
     text-align: center;
@@ -19,49 +22,74 @@ a {
 }
 
 h1 {
-    font-size: 50px;
-    margin: 20px 0;
+    margin: 0 auto 2rem auto;
+    font-size: 5rem;
+    line-height: 40px;
+}
+
+h2, h3, h4, h5 {
+    margin: 2rem 0 0.8rem 0;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.7rem;
 }
 
 #header {
     width: 100%;
-    height: 100px;
+    min-width: 300px;
+    padding: 20px;
     background-color: #3c108f;
 }
 
 #header .header__container {
     max-width: 1200px;
-    min-width: 320px;
-    margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
 #header figure img {
     max-width: 200px;
-    max-height: 90px;
+    margin: 0;
 }
 
-#header .header__container nav{
-    display: flex;
-    height: 100px;
-}
 
 #header .header__container nav ul{
     display: flex;
     flex-direction: row;
-    width: 350px;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 350px;
+    justify-content: center;
+    list-style: none;
 }
 
-#header .header__container nav ul li {
-    margin: 0 auto;
+#header .header__container nav ul li:hover {
+    color: 
+    #3c108f;
+    background-color: 
+    #583a8f;
 }
 
 #header .header__container nav ul li a {
+    display: inline-block;
     font-size: 17px;
     color: #ffffff;
     padding: 20px;
@@ -69,6 +97,8 @@ h1 {
 
 #header .header__container nav ul li a:hover {
     color: #0afd0a;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 div#post {
@@ -76,11 +106,21 @@ div#post {
     max-width: 1200px;
     max-height: auto;
     margin: 0 auto;
-    padding: 40px;
+    padding: 40px 20px;
+}
+
+div#post figure img {
+    width: 90%;
+    max-width: 45rem;
+    margin: 20px auto 4px auto;
 }
 
 div#post video {
-    max-width: 400px;
-    height: auto;
+    width: 90%;
+    max-width: 45rem;
     margin: 20px auto;
+}
+
+div#post form {
+    margin: 20px auto 0  auto;
 }

@@ -1,20 +1,27 @@
 footer {
     width: 100%;
-    background-color: azure;
+    padding: 2rem;
+    background-color: #3c108f;
+
 } 
 
 footer .footer__container {
     max-width: 1200px;
-    margin: 0 auto;
-    height: 100px;
-    background-color: red;
+    min-height: 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-
+    align-content: space-between;
 } 
 
-footer .footer__container a {
-    font-size: 20px;
-    color: white;
+footer .footer__container span, a {
+    display: block;
+    font-size: 1.6rem;
+
+    color: #ffffff;
+}
+
+footer .footer__container span {
+    margin-bottom: 0.1rem;
+    font-weight: 700;
 }

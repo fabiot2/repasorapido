@@ -76,3 +76,37 @@ h2.secondcontainer {
 .maincontainer p {
     text-align: justify;
 }
+
+#display {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#display .display__box {
+    border: dotted palevioletred 2px;
+    padding: 2rem;
+    margin: 2rem 0;
+    line-height: 8rem;
+}
+
+#display .display__box .block {
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+    display: block;
+    background-color: peru;
+}
+
+#display .display__box .inline {
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+    display: inline;
+    background-color: palevioletred;
+}
+
+#display .display__box .inline__block {
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+    display: inline-block;
+    background-color: palegreen;
+}

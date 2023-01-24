@@ -7,3 +7,6 @@ Este es un repaso rápido de HTML, CSS Y Github hecho por el [Diseñador de Pág
 Diseñador de páginas web en Colombia, estudiando desarrollo web para seguir aportando valor a mis clientes. 
 
 Esto opinan mis clientes en Google. [Páginas web en Tuluá](https://goo.gl/maps/GNSpcjS2LvZGZKAV9 "Páginas web en Tuluá") {:target="_blank" rel="noopener"}
+
+
+Un primer Cambio

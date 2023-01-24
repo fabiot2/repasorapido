@@ -7,18 +7,19 @@ footer {
 
 footer .footer__container {
     max-width: 1200px;
+    margin: 0 auto;
     min-height: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-between;
+    justify-content: space-between;
+    align-content: center;
 } 
 
 footer .footer__container span, a {
     display: block;
     font-size: 1.6rem;
-
     color: #ffffff;
+    line-height: 1.6rem;
 }
 
 footer .footer__container span {

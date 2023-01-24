@@ -16,7 +16,7 @@ html {
 
 body {
     min-width: 300px;
-    background-color: var(--second-color)
+    background-color: var(--second-color);
     color: var(--main-color);
     text-align: center;
     height: 100vh;

@@ -1,0 +1,17 @@
+#css {
+    margin: 0 auto 4rem auto;
+}
+
+hr {
+    margin: 4rem;
+}
+
+
+#css h2 ~ p {
+    color: red;
+}
+
+
+#css div > p {
+    color: red;
+}

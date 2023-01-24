@@ -1,1 +1,0 @@
-si, si estoy ignorando los archivos de una carpeta, y no hay nada más , git omitirá la subida de esta carpeta o directorio al repositorio remoto.

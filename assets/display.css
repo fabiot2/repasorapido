@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(215, 249, 253);
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.box__container {
+    width: 70rem;
+    height: 20rem;
+    margin: 0 auto;
+    border: 2px dotted dodgerblue;
+    position:relative;
+}
+
+.box {
+    display: inline-block;
+    background-color: palegoldenrod;
+    width: 10rem;
+    height: 10rem;
+}
+
+.box#two {
+    background-color: palegreen;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box__container-desafio {
+    width: 50vw;
+    height: 50vh;
+    margin: 4rem auto;
+}
+
+.box__container-desafio h1 {
+    color: purple;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.maincontainer {
+    position: relative;
+    width: 40rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: palegreen;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 0.5rem palevioletred double;
+}
+
+h2.secondcontainer {
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 0.8rem 1.4rem;
+    background-color: palevioletred;
+    position: absolute;
+    top: -30px;
+    border-radius: 2rem;
+    border: #ffffff dotted 0.4rem;
+}
+
+.maincontainer p {
+    text-align: justify;
+}

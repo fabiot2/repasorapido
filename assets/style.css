@@ -1,3 +1,8 @@
+:root {
+    --main-color: #3C108F;
+    --second-color: #acb5ce;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +16,8 @@ html {
 
 body {
     min-width: 300px;
-    background-color: rgb(172, 181, 206);
-    color: #3c108f;
+    background-color: var(--second-color);
+    color: var(--main-color);
     text-align: center;
     height: 100vh;
 }
@@ -55,7 +60,7 @@ p {
     width: 100%;
     min-width: 300px;
     padding: 20px;
-    background-color: #3c108f;
+    background-color: var(--main-color);
 }
 
 #header .header__container {
@@ -83,7 +88,7 @@ p {
 
 #header .header__container nav ul li:hover {
     color: 
-    #3c108f;
+    var(--main-color);
     background-color: 
     #583a8f;
 }

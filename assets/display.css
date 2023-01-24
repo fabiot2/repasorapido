@@ -1,3 +1,7 @@
+:root {
+    --color__violeta: #d87093
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -59,14 +63,14 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: 0.5rem palevioletred double;
+    border: 0.5rem var(--color__violeta) double;
 }
 
 h2.secondcontainer {
     font-size: 3rem;
     color: #ffffff;
     padding: 0.8rem 1.4rem;
-    background-color: palevioletred;
+    background-color: var(--color__violeta);
     position: absolute;
     top: -30px;
     border-radius: 2rem;
@@ -78,15 +82,15 @@ h2.secondcontainer {
 }
 
 #display {
-    width: 30%;
+    width: 70%;
     height: auto;
     margin: 0 auto;
 }
 
 #display .display__box {
-    border: dotted palevioletred 2px;
-    padding: 2rem;
-    margin: 2rem 0;
+    border: dotted var(--color__violeta) 2px;
+    padding: 1rem;
+    margin: 1rem 0;
     line-height: 8rem;
 }
 
@@ -101,7 +105,7 @@ h2.secondcontainer {
     padding: 0.8rem 1rem;
     margin: 1rem;
     display: inline;
-    background-color: palevioletred;
+    background-color: var(--color__violeta);
 }
 
 #display .display__box .inline__block {
@@ -109,4 +113,48 @@ h2.secondcontainer {
     margin: 1rem;
     display: inline-block;
     background-color: palegreen;
+}
+
+.flexbox__container {
+    padding: 0;
+    
+    border: 0.3rem solid purple;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox {
+    flex-basis: 10rem;
+    flex-grow: 1;
+    height: 10rem;
+    padding: 0.4rem;
+    color: purple;
+    font-weight: 700;
+    text-align: center;
+}
+
+.flexbox1 {
+    background-color: palegreen;
+
+}
+
+.flexbox2 {
+    background-color: peachpuff;
+}
+
+.flexbox3 {
+    background-color: rgb(57, 71, 73);
+    color: #ffffff;
+
+}
+
+.flexbox4 {
+    background-color: plum;
+}
+
+.flexbox5 {
+    background-color:var(--color__violeta);
+}
+.flexbox6 {
+    background-color: paleturquoise;
 }

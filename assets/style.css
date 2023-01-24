@@ -1,6 +1,6 @@
 :root {
-    --main-color: var(--main-color);
-    --second-color: var(--second-color)
+    --main-color: #800080;
+    --second-color: #acb5ce;
 }
 
 * {

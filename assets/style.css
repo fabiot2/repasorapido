@@ -130,3 +130,34 @@ div#post video {
 div#post form {
     margin: 20px auto 0  auto;
 }
+
+.box__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100vw;
+    min-width: 15rem;
+    height: 15rem;
+}
+
+.c1 {
+    background-color: powderblue;
+}
+
+.c2 {
+    background-color:palegreen;
+}
+
+.c3 {
+    background-color: peru;
+}
+
+.c4 {
+    background-color: palevioletred;
+}
+
+.c5 {
+    background-color: palegoldenrod;
+}

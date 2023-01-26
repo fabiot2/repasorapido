@@ -1,5 +1,7 @@
 html {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
     background-color: rgb(253, 215, 215);
+}
+
+.c2, .c3, .c4 {
+    width: 50%;
 }

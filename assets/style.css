@@ -131,14 +131,13 @@ div#post form {
     margin: 20px auto 0  auto;
 }
 
-.box__container {
+.flexbox__container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.box {
+.flexbox {
     width: 100vw;
-    min-width: 15rem;
     height: 15rem;
 }
 
@@ -155,7 +154,6 @@ div#post form {
 }
 
 .c4 {
-    height: auto;
     background-color: palevioletred;
 }
 

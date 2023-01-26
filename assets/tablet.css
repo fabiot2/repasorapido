@@ -3,21 +3,28 @@ html {
 }
 
 .c1 {
+
     width: 25%;
+    order: 1;
 }
 
-.c4 {
+.c2 {
+
     width: 75%;
-}
-
-.c5 {
-    width: 100%;
+    order: 2;
 }
 
 .c3 {
     width: 100%;
+    order: 3;
 }
 
-.c2 {
-    width: 100%;
+.c4 {
+    width: 40%;
+    order: 4;
+}
+
+.c5 {
+    width: 60%;
+    order: 5;
 }

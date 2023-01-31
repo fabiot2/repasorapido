@@ -160,3 +160,9 @@ div#post form {
 .c5 {
     background-color: palegoldenrod;
 }
+
+
+
+.responsiveimg img {
+    width: 400px;
+}
